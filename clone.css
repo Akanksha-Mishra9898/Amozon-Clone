@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    border: border-box;
+    
+    
+}
+.navbar{
+    width: 100%;
+    height: 57px;
+   
+    background-color: black;
+    color: white;
+
+}
+.logo{
+    background-image: url(https://www.shutterstock.com/image-vector/amazon-logo-editorial-icon-isolated-260nw-2333488123.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 70px;
+    border:none;
+}
+.logo:hover{
+    border: 2px solid white;
+}
+.icon{
+    height: 55px;
+    width: 60px;
+    display: flex;
+}
+.icon h3{
+    color: white;
+}
+.icon img{
+ height: 25px;
+ width: 25px;
+}
+.del {
+height: 60px;
+width: 49px;
+}
+.del a{
+    color: white;
+    text-decoration: none;
+}
+.del a:hover{
+    text-decoration: underline;
+}
+.search input{
+    width: 420px;
+}
+.home{
+    color: white;
+}
+.home a{
+    color: white;
+    text-decoration: none;
+}
+.home a:hover{
+text-decoration: underline;
+}
+.return {
+color: white;
+}
+.return a{
+    text-decoration: none;
+    color: white;
+}
+.return a:hover{
+    text-decoration: underline;
+}
+
+.cart{
+    height: 55px;
+    width: 70px;
+    display: flex;
+    margin-right: 12px;
+}
+.cart img{
+    height: 48px;
+    width: 70px;
+}
+.cart a{
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-right: 90px;
+}
+.cart :hover{
+    text-decoration:underline;
+}
+.amazon{
+    width: 1250px;
+    height: 520px;
+    background-image: url(https://www.businessinsider.in/photo/94004700/amazon-great-indian-festival-sale-best-deals-and-offers.jpg?imgsize=90582);
+    background-size: cover;
+    animation-name: change;
+    animation-iteration-count: 3;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+}
+@keyframes change{
+    0%{
+        background-image:  url(https://www.businessinsider.in/photo/94004700/amazon-great-indian-festival-sale-best-deals-and-offers.jpg?imgsize=90582);;
+    }
+    50%{
+        background-image: url(https://i.pinimg.com/originals/b9/61/5c/b9615c9a802bf79f0940754a2df7ae41.jpg);
+    }
+    100%{
+        background-image: url(https://coreldrawdesign.com/resources/thumbnails/thumbnail-1695137662.jpg);
+    }
+}
+
+.main{
+    width: 1250px;
+    height: 400px;
+    background-image: url();
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mobile{
+    width: 280px;
+    height: 350px;
+}
+.mobile img{
+    width: 280px;
+    height: 350px;
+   
+}
+.mobile h6{
+       font-weight: 900;
+}
+lorem{
+    color: red;
+}
+.Bazaar{
+    width: 280px;
+    height: 350px;
+}
+.Bazaar img{
+    width: 280px;
+    height: 350px;
+}
+.Bazaar h6{
+    font-weight: 900;
+}
+.fashion{
+    width: 280px;
+    height: 350px;
+}
+.fashion img{
+    width: 280px;
+    height: 350px;
+}
+.fashion h6{
+    font-weight: 900;
+}
+.miniTv{
+    width: 280px;
+    height: 350px;
+   
+}
+.miniTv img{
+    width: 280px;
+    height: 350px;
+}
+.miniTv h6{
+    font-weight: 900; 
+}
+.watch{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.watch h6{
+    font-weight: 900;
+}
+.hand{
+    width: 280px;
+    height: 350px;
+}
+.hand img{
+    width: 280px;
+    height: 350px;
+}
+.women{
+    width: 280px;
+    height: 350px;
+}
+.women img{
+    width: 280px;
+    height: 350px;
+}
+.men{
+    width: 280px;
+    height: 350px;
+}
+.men img{
+    width: 280px;
+    height: 350px;
+}
+.wall{
+    width: 280px;
+    height: 350px;
+}
+.wall img{
+    width: 280px;
+    height: 350px;
+}
+.cloth{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+}
+.cloth lorem{
+    color: black;
+}
+.cloth h6{
+    font-weight: 900;
+}
+.child{
+    width: 290px;
+    height: 350px;
+}
+.child img{
+    width: 280px;
+    height: 350px;
+}
+.girls{
+    width: 290px;
+    height: 350px;
+}
+.girls img{
+    width: 280px;
+    height: 350px;
+}
+.wom{
+    width: 290px;
+    height: 350px;
+}
+.wom img{
+    width: 280px;
+    height: 350px;
+}
+.mens{
+    width: 290px;
+    height: 350px;
+}
+.mens img{
+    width: 280px;
+    height: 350px;
+}
+
+
+
